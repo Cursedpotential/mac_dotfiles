@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "remote.SSH.connectTimeout": 30,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "192.168.1.10": "linux",
+        "PopOS_mac": "linux",
+        "popOS-mac": "linux",
+        "ubuntu-nuc": "linux",
+        "Ubuntu-SVR": "linux"
+    },
+    "remote.SSH.showLoginTerminal": true,
+    "window.zoomLevel": 1,
+    "GithubGistExplorer.explorer.gistSortBy": "Last Updated",
+    "GithubGistExplorer.explorer.gistAscending": false,
+    "GithubGistExplorer.explorer.subscriptionSortBy": "Last Updated",
+    "GithubGistExplorer.explorer.subscriptionAscending": false,
+    "GithubGistExplorer.github.token": "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",
+    "GithubGistExplorer.github.username": "CursedPotential"
+}
