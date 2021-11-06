@@ -19,8 +19,8 @@ cp -r $HOME/Library/Application\ Support/Code/User/snippets $HOME/dotfiles/Libra
 code --list-extensions | xargs -L 1 echo code --install-extension > vscode.extensions
 
 # copy other dot files 
-cp -r $HOME/{.*rc,.profile} $HOME/dotfiles
-cp  $HOME/.config/{} $HOME/dotfiles/.config
+rsync -hvr $HOME/{.*rc,.profile} $HOME/dotfiles
+rsync -hvr $HOME/.config/{} $HOME/dotfiles/.config
 rsync -hvr $HOME/.config/fish .config/
 rsync -hvr $HOME/.config/neofetch/neofetch.conf .config/neofetch/
 rsync -hvr $HOME/.config/nvim/init.vim .config/nvim/
